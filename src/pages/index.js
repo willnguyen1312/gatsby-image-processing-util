@@ -20,8 +20,8 @@ export default BlogIndex
 
 export const pageQuery = graphql`
   query IndexQuery {
-    creeptoma_logo: imageSharp(id: { regex: "/creeptoma_logo.png/" }) {
-      sizes(maxWidth: 408, maxHeight: 346) {
+    world_icon: imageSharp(id: { regex: "/world_icon.png/" }) {
+      sizes(maxWidth: 220, maxHeight: 200) {
         ...GatsbyImageSharpSizes
       }
     }
