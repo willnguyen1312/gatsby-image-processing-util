@@ -20,7 +20,7 @@ export default BlogIndex
 
 export const pageQuery = graphql`
   query IndexQuery {
-    world_icon: imageSharp(id: { regex: "/world_icon.png/" }) {
+    world_icon: imageSharp(id: { regex: "/generateImg.png/" }) {
       sizes(maxWidth: 220, maxHeight: 200) {
         ...GatsbyImageSharpSizes
       }
